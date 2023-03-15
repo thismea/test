@@ -1,0 +1,38 @@
+#!/bin/bash
+# ==========================================
+# Color
+# hapus menu
+rm -rf menu
+rm -rf ipsaya
+rm -rf vmessmenu
+rm -rf vlessmenu
+rm -rf grpcmenu
+
+# download menu
+cd /usr/bin
+wget -O menu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/menu"
+wget -O menu-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/menu-trojan"
+wget -O add-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/add-trojan"
+wget -O del-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/del-trojan"
+wget -O renew-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/renew-trojan"
+wget -O delexp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/delexp"
+wget -O cek-service "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/cek-service"
+wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
+wget -O updatemenu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/updatemenu
+wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
+#permision
+cd /usr/bin
+chmod +x menu
+chmod +x delexp
+chmod +x restart
+chmod +x speedtest
+chmod +x clear-log
+chmod +x clear-ram
+chmod +x backup
+chmod +x xp
+chmod +x cek-service
+chmod +x add-trojan
+chmod +x menu-trojan
+chmod +x del-trojan
+chmod +x renew-trojan
+cd
